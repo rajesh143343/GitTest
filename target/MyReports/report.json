@@ -1,0 +1,229 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-11T13:56:35.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1973734100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "My Store Login title verification",
+        "description": "",
+        "id": "mystore-login-page-details;my-store-login-title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 623560900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.browserclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5182055200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is on Login page",
+            "match": {
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6551500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User gets page title",
+            "match": {
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_gets_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1006700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Title should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.title_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-11T13:56:43.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1002800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1225726400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify user is able to Login My store",
+        "description": "",
+        "id": "mystore-login-page-details;verify-user-is-able-to-login-my-store",
+        "after": [
+          {
+            "result": {
+              "duration": 625900100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.browserclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5682407700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Login page",
+            "match": {
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70297600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters the username as \"rajesh.vadlamudi999@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rajesh.vadlamudi999@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_enters_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52742500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters the password as \"Mystore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mystore\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_enters_the_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2193995500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5542800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User gets page title",
+            "match": {
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_gets_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9999800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Title of the home page should be \"My account - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account - My Store\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.shopping.stepdefinitions.LoginStepdefinition.title_of_the_home_page_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "MyStore Login page details",
+    "description": "",
+    "id": "mystore-login-page-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/shopping/features/Login.feature",
+    "tags": []
+  }
+]

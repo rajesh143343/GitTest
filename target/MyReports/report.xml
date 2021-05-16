@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.868">
+    <testcase classname="MyStore Login page details" name="My Store Login title verification" time="7.848">
+        <system-out><![CDATA[Given User is on Login page.................................................passed
+When User gets page title...................................................passed
+And Title should be "Login - My Store"......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="MyStore Login page details" name="Verify user is able to Login My store" time="9.874">
+        <system-out><![CDATA[Given User is on Login page.................................................passed
+When User enters the username as "rajesh.vadlamudi999@gmail.com"............passed
+When User enters the password as "Mystore"..................................passed
+And User clicks on Login button.............................................passed
+Then User gets page title...................................................passed
+And Title of the home page should be "My account - My Store"................passed
+]]></system-out>
+    </testcase>
+</testsuite>
