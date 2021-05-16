@@ -34,8 +34,7 @@ public class MyAccountHomePageStepdefinition {
 
 	@Given("User is on MyAccount details page")
 	public void user_is_on_my_account_details_page() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+		
 	}
 
 	@When("Account section is available")
