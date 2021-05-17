@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.868">
-    <testcase classname="MyStore Login page details" name="My Store Login title verification" time="7.848">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="40.339">
+    <testcase classname="MyStore Login page details" name="My Store Login title verification" time="11.756">
         <system-out><![CDATA[Given User is on Login page.................................................passed
 When User gets page title...................................................passed
 And Title should be "Login - My Store"......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="MyStore Login page details" name="Verify user is able to Login My store" time="9.874">
+    <testcase classname="MyStore Login page details" name="Verify user is able to Login My store" time="8.736">
         <system-out><![CDATA[Given User is on Login page.................................................passed
 When User enters the username as "rajesh.vadlamudi999@gmail.com"............passed
 When User enters the password as "Mystore"..................................passed
 And User clicks on Login button.............................................passed
 Then User gets page title...................................................passed
 And Title of the home page should be "My account - My Store"................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="My Account page details" name="MyAccount details page title" time="10.111">
+        <system-out><![CDATA[Given User login into Shopping site.........................................passed
+Given User is on MyAccount details page.....................................passed
+When User gets page title...................................................passed
+When Title of the home page should be "My account - My Store"...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="My Account page details" name="My Account details page options for selection" time="9.5">
+        <system-out><![CDATA[Given User login into Shopping site.........................................passed
+Given User is on MyAccount details page.....................................passed
+When Account section is available...........................................passed
+Then Options should be available............................................passed
+And options count should be 5...............................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
