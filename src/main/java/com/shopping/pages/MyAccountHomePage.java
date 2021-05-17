@@ -12,9 +12,13 @@ public class MyAccountHomePage {
 	private WebDriver driver;
 	private List<WebElement> accountsectionslinkslist;
 
+	/*
+	 * Constructor
+	 */
 	public MyAccountHomePage(WebDriver driver) {
 		this.driver = driver;
 	}
+	
 
 	private By accountsectionlinks = By.xpath(("(//div[@class='row addresses-lists'])//span"));
 

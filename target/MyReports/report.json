@@ -3,11 +3,11 @@
     "line": 20,
     "elements": [
       {
-        "start_timestamp": "2021-05-11T13:56:35.847Z",
+        "start_timestamp": "2021-05-17T09:35:17.406Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 2041800,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,7 @@
           },
           {
             "result": {
-              "duration": 1973734100,
+              "duration": 1989330400,
               "status": "passed"
             },
             "match": {
@@ -31,7 +31,7 @@
         "after": [
           {
             "result": {
-              "duration": 623560900,
+              "duration": 624059800,
               "status": "passed"
             },
             "match": {
@@ -44,54 +44,40 @@
         "steps": [
           {
             "result": {
-              "duration": 5182055200,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 23,
             "name": "User is on Login page",
-            "match": {
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 6551500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "User gets page title",
-            "match": {
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_gets_page_title()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1006700,
-              "status": "passed"
+              "duration": 1001400,
+              "status": "skipped"
             },
             "line": 25,
             "name": "Title should be \"Login - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Login - My Store\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.title_should_be(java.lang.String)"
-            },
+            "match": {},
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2021-05-11T13:56:43.711Z",
+        "start_timestamp": "2021-05-17T09:35:20.086Z",
         "before": [
           {
             "result": {
-              "duration": 1002800,
+              "duration": 957200,
               "status": "passed"
             },
             "match": {
@@ -100,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 1225726400,
+              "duration": 1245667600,
               "status": "passed"
             },
             "match": {
@@ -115,7 +101,7 @@
         "after": [
           {
             "result": {
-              "duration": 625900100,
+              "duration": 604603600,
               "status": "passed"
             },
             "match": {
@@ -128,92 +114,58 @@
         "steps": [
           {
             "result": {
-              "duration": 5682407700,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 28,
             "name": "User is on Login page",
-            "match": {
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 70297600,
-              "status": "passed"
+              "duration": 1033800,
+              "status": "skipped"
             },
             "line": 29,
             "name": "User enters the username as \"rajesh.vadlamudi999@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"rajesh.vadlamudi999@gmail.com\"",
-                  "offset": 28
-                }
-              ],
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_enters_the_username_as(java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 52742500,
-              "status": "passed"
+              "duration": 999400,
+              "status": "skipped"
             },
             "line": 30,
             "name": "User enters the password as \"Mystore\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Mystore\"",
-                  "offset": 28
-                }
-              ],
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_enters_the_password_as(java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2193995500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "User clicks on Login button",
-            "match": {
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_clicks_on_login_button()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5542800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "User gets page title",
-            "match": {
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.user_gets_page_title()"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9999800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "Title of the home page should be \"My account - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"My account - My Store\"",
-                  "offset": 33
-                }
-              ],
-              "location": "com.shopping.stepdefinitions.LoginStepdefinition.title_of_the_home_page_should_be(java.lang.String)"
-            },
+            "match": {},
             "keyword": "And "
           }
         ]
@@ -224,6 +176,254 @@
     "id": "mystore-login-page-details",
     "keyword": "Feature",
     "uri": "file:src/test/resources/com/shopping/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User login into Shopping site",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "rajesh.vadlamudi999@gmail.com",
+                  "Mystore"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-17T09:35:21.952Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1250888600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "MyAccount details page title",
+        "description": "",
+        "id": "my-account-page-details;myaccount-details-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 620351900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.browserclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is on MyAccount details page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User gets page title",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Title of the home page should be \"My account - My Store\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User login into Shopping site",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "rajesh.vadlamudi999@gmail.com",
+                  "Mystore"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-17T09:35:23.841Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1245264700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "My Account details page options for selection",
+        "description": "",
+        "id": "my-account-page-details;my-account-details-page-options-for-selection",
+        "after": [
+          {
+            "result": {
+              "duration": 616062800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.browserclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User is on MyAccount details page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Account section is available",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Options should be available",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Order history and details"
+                ]
+              },
+              {
+                "cells": [
+                  "My credit slips"
+                ]
+              },
+              {
+                "cells": [
+                  "My addresses"
+                ]
+              },
+              {
+                "cells": [
+                  "My personal information"
+                ]
+              },
+              {
+                "cells": [
+                  "My wishlists"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "options count should be 5",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "My Account page details",
+    "description": "",
+    "id": "my-account-page-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/shopping/features/MyAccount.feature",
     "tags": []
   }
 ]

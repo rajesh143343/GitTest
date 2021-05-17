@@ -50,6 +50,13 @@
 			<version>4.4.1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-control</artifactId>
+			<version>1.0.1</version>
+			<type>pom</type>
+		</dependency>
+
 	</dependencies>
 
 
