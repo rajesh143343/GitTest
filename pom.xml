@@ -75,14 +75,30 @@
 			<version>1.6.6</version>
 		</dependency>
 
+		<!-- Extent Reports 4 Plugin -->
 
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber6-adapter</artifactId>
+			<version>1.2.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>io.cucumber</groupId>
+					<artifactId>cucumber-java</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.cucumber</groupId>
+					<artifactId>cucumber-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 
 	</dependencies>
 
 
 	<build>
 		<plugins>
-		
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -93,20 +109,21 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 			</plugin>
-			
-			 <!-- Latest Cucumber JVM Reports Plugin-->
-			
+
+			<!-- Latest Cucumber JVM Reports Plugin -->
+
 
 			<plugin>
+
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>5.0.0</version>
+				<version>5.5.0</version>
 
 				<executions>
 					<execution>
@@ -134,8 +151,8 @@
 
 
 
-			</plugin>		
-			
+			</plugin>
+
 		</plugins>
 	</build>
 </project>
