@@ -35,7 +35,7 @@ public class MyAccountHomePageStepdefinition {
 	@Given("User is on MyAccount details page")
 	public void user_is_on_my_account_details_page() {
 		
-		// Account details
+		// Account detailsnew test
 	}
 
 	@When("Account section is available")
