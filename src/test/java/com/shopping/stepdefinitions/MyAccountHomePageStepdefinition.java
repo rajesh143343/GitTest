@@ -37,6 +37,7 @@ public class MyAccountHomePageStepdefinition {
 		
 		// Account details 
 		//Need to add assertions and write method to impletement it.
+		// Added to test home page code
 	}
 
 	@When("Account section is available")
