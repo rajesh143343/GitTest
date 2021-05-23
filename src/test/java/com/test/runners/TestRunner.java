@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {
-		"F:\\eclipse-workspace\\SHOPPINGTEST\\src\\test\\resources\\com\\shopping\\features" },
+		"F:\\eclipse-workspace\\SHOPPINGTEST\\src\\test\\resources\\com\\shopping\\features\\MyAccount.feature" },
 			glue = {"com.shopping.stepdefinitions", "appHooks" }
 			,plugin= {"pretty",
 					"json:target/MyReports/report.json",
