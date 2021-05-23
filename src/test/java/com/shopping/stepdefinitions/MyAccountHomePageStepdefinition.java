@@ -34,18 +34,42 @@ public class MyAccountHomePageStepdefinition {
 
 	@Given("User is on MyAccount details page")
 	public void user_is_on_my_account_details_page() {
-		
-		// Account detailsnew test
+
+		System.out.println(myaccountHomepage.gethomepageSection());
+
 	}
 
-	@When("Account section is available")
-	public void account_section_is_available() {
+	@When("Account section {string} is available")
+	public void account_section_is_available(String accountSectionHeading) {
 		
+		System.out.println("Actual heading: "+accountSectionHeading);
+		System.out.println("Expected heading:..."+myaccountHomepage.gethomepageSection());
+		Assert.assertTrue(accountSectionHeading.equals(myaccountHomepage.gethomepageSection()));
 	}
 
 	@Then("Options should be available")
 	public void options_should_be_available(io.cucumber.datatable.DataTable dataTable) {
+
+		List<String> expectedAccountSectOptions = dataTable.asList();
+
+		List<String> actualAccountSectOptions = myaccountHomepage.getMyAccountList();
 		
+		System.out.println("Expected list is:" +expectedAccountSectOptions);
+		System.out.println("Expected list is:" +actualAccountSectOptions);
+
+		// Assert true to compare two array lists containsAll we need to use
+
+		Assert.assertTrue(expectedAccountSectOptions.containsAll(actualAccountSectOptions));
+
+		/*
+		 * for (int i = 0; i <= accountSectOptions.size(); i++) { String actuallink =
+		 * accountSectOptions.get(i); String expectedlink =
+		 * myaccountHomepage.getMyAccountList().get(i);
+		 * Assert.assertTrue(actuallink.equals(expectedlink));
+		 * 
+		 * }
+		 */
+
 	}
 
 	@Then("options count should be {int}")
