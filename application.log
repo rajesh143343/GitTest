@@ -1,0 +1,14 @@
+2021-05-24 00:01:33,169  INFO [main] WebDriverManager:625 - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+2021-05-24 00:01:33,182  INFO [main] WebDriverManager:682 - Exporting webdriver.chrome.driver as C:\Users\rajes\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-24 00:01:34,819  INFO [main] LoginStepdefinition:25 - **********Starting step of project************
+2021-05-24 00:01:34,820  WARN [main] LoginStepdefinition:26 - ************Warningin message***********
+2021-05-24 00:01:34,821 ERROR [main] LoginStepdefinition:28 - **************for Error message***********
+2021-05-24 00:01:45,911  INFO [main] WebDriverManager:625 - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+2021-05-24 00:01:45,914  INFO [main] WebDriverManager:682 - Exporting webdriver.chrome.driver as C:\Users\rajes\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-24 00:01:47,155  INFO [main] LoginStepdefinition:25 - **********Starting step of project************
+2021-05-24 00:01:47,155  WARN [main] LoginStepdefinition:26 - ************Warningin message***********
+2021-05-24 00:01:47,155 ERROR [main] LoginStepdefinition:28 - **************for Error message***********
+2021-05-24 00:01:56,885  INFO [main] WebDriverManager:625 - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+2021-05-24 00:01:56,888  INFO [main] WebDriverManager:682 - Exporting webdriver.chrome.driver as C:\Users\rajes\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-24 00:02:12,549  INFO [main] WebDriverManager:625 - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+2021-05-24 00:02:12,552  INFO [main] WebDriverManager:682 - Exporting webdriver.chrome.driver as C:\Users\rajes\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe

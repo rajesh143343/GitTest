@@ -6,6 +6,8 @@ import com.shopping.pages.LoginPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+import org.apache.log4j.*;
 import org.junit.Assert;
 
 public class LoginStepdefinition {
@@ -14,10 +16,16 @@ public class LoginStepdefinition {
 
 	private String loginpagetitle;
 
-
+	// This is naveen automation code for log4j but refer rahul shetty viedo in udemy 182,183 it is good for log4j concepts
+	Logger log = Logger.getLogger(LoginStepdefinition.class);
+	
 
 	@Given("User is on Login page")
 	public void user_is_on_login_page() {
+		log.info("**********Starting step of project************");
+		log.warn("************Warningin message***********");
+		log.debug("****debug*******");
+		log.error("**************for Error message***********");
 
 		Driverfactory.getDriver()
 				.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
