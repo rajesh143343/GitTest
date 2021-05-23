@@ -15,12 +15,12 @@ When Title of the home page should be "My account - My Store"
 
 Scenario: My Account details page options for selection
 Given User is on MyAccount details page
-When Account section is available
+When Account section "MY ACCOUNT" is available
 Then Options should be available
-|Order history and details|
-|My credit slips|
-|My addresses|
-|My personal information|
-|My wishlists|
+|ORDER HISTORY AND DETAILS|
+|MY CREDIT SLIPS|
+|MY ADDRESSES|
+|MY PERSONAL INFORMATION|
+|MY WISHLISTS|
 And options count should be 5
 

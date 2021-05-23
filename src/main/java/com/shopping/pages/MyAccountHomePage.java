@@ -11,6 +11,8 @@ public class MyAccountHomePage {
 
 	private WebDriver driver;
 	private List<WebElement> accountsectionslinkslist;
+	private By accountsectionlinks = By.xpath(("(//div[@class='row addresses-lists'])//span"));
+	private By accountsecHeading = By.className("page-heading");
 
 	/*
 	 * Constructor
@@ -20,13 +22,20 @@ public class MyAccountHomePage {
 	}
 	
 
-	private By accountsectionlinks = By.xpath(("(//div[@class='row addresses-lists'])//span"));
+
 
 	public int getCountofaccountLinks() {
 
 		return driver.findElements(accountsectionlinks).size();
 
 	}
+	
+	public String gethomepageSection() {
+		String accSecHeading = driver.findElement(accountsecHeading).getText();
+		return accSecHeading;
+		
+	}
+	
 
 	public ArrayList<String> getMyAccountList() {
 		
@@ -39,7 +48,8 @@ public class MyAccountHomePage {
 		
 		return listoflinks;
 		
+		}
 
-	}
+	
 
 }
