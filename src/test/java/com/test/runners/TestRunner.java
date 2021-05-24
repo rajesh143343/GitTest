@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
 					"junit:target/MyReports/report.xml",
 		 			"html:target/cucumber-html-report",
 			"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},// this is the extend plugin that we need for extend report refer pom.xml that plug is confi
-			publish = true, 
+			publish = true,
+			//tags="@Smoke", //tags we can apply in Feature file on Feature level, Scenario level, scenario outline level, we cannot apply on Given, when, then
 			monochrome = true)
 
 public class TestRunner {

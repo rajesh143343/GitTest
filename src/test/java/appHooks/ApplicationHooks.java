@@ -1,15 +1,20 @@
 package appHooks;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Properties;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
 
 import com.shopping.factory.Driverfactory;
 import com.shopping.util.ConfigReader;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class ApplicationHooks {
 
@@ -40,6 +45,21 @@ public class ApplicationHooks {
 	public void browserclose() {
 		driver.quit();
 
+	}
+	
+	// for @After order 1 will be executed first and order 0 will be executed next in case of 
+	//@Before order 0 will execute first and order 1 will excute next
+	@After(order=1)
+	public void screenshot(Scenario scenario) {
+		if(scenario.isFailed()) {
+			
+			String screenshotname = scenario.getName().replaceAll(" ", "_");
+			
+				
+			byte[] srcPath= ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+			
+			scenario.attach(srcPath, "image/png", screenshotname);
+		}
 	}
 
 }

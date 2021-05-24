@@ -17,13 +17,16 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+@All
 Feature: MyStore Login page details
 
+@Smoke
 Scenario: My Store Login title verification
 Given User is on Login page
 When User gets page title
 And Title should be "Login - My Store"
 
+@Regression
 Scenario: Verify user is able to Login My store
 Given User is on Login page
 When User enters the username as "rajesh.vadlamudi999@gmail.com"

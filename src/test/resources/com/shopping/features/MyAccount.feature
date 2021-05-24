@@ -1,3 +1,4 @@
+@All
 Feature: My Account page details
 
 Background:
@@ -22,5 +23,5 @@ Then Options should be available
 |MY ADDRESSES|
 |MY PERSONAL INFORMATION|
 |MY WISHLISTS|
-And options count should be 5
+And options count should be 6
 
